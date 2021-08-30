@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/stomp-reactive-client/stomp-reactive-client.iml" filepath="$PROJECT_DIR$/stomp-reactive-client/stomp-reactive-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stomp-reactive-server/stomp-reactive-example.iml" filepath="$PROJECT_DIR$/stomp-reactive-server/stomp-reactive-example.iml" />
+    </modules>
+  </component>
+</project>
