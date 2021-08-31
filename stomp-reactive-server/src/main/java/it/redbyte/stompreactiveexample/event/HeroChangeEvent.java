@@ -1,11 +1,11 @@
 package it.redbyte.stompreactiveexample.event;
 
+import it.redbyte.stompreactiveexample.config.liveWebSocket.ChangeEvent;
 import it.redbyte.stompreactiveexample.model.entities.Hero;
 import lombok.ToString;
-import org.springframework.context.ApplicationEvent;
 
 @ToString
-public abstract class HeroChangeEvent extends ApplicationEvent implements ChangeEvent {
+public abstract class HeroChangeEvent extends ChangeEvent {
     public HeroChangeEvent(Hero source) {
         super(source);
     }

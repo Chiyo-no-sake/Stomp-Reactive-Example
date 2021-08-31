@@ -5,21 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf8aa9d-8432-44cd-afa0-33de59520e1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-client/stomp-reactive-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/ChangeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/ChangeEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroChangeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroChangeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroDeletedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroDeletedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroUpdatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/HeroChangeEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/model/dto/HeroChangeEventMessage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stomp-reactive-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xS5MKh8MSkV8tqKmPNoxBu5Q68" />
   <component name="ProjectViewState">
@@ -27,8 +44,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/stomp-reactive-client" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -37,7 +59,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/stomp-reactive-client/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stomp-reactive-client/src/app/live-web-socket" />
+      <recent name="$PROJECT_DIR$/stomp-reactive-client/src/app/liveWebsocket" />
+      <recent name="$PROJECT_DIR$/stomp-reactive-client/src/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StompReactiveExampleApplication">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -68,10 +97,22 @@
       <option name="presentableId" value="Default" />
       <updated>1630335599723</updated>
       <workItem from="1630335601059" duration="1058000" />
+      <workItem from="1630404568315" duration="5018000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
