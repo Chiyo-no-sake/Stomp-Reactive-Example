@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf8aa9d-8432-44cd-afa0-33de59520e1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/PosterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/PosterChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/model/dto/PosterText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/StompReactiveExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/StompReactiveExampleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/HeroesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/HeroesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cf8aa9d-8432-44cd-afa0-33de59520e1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +88,7 @@
       <updated>1630335599723</updated>
       <workItem from="1630335601059" duration="1058000" />
       <workItem from="1630404568315" duration="5079000" />
-      <workItem from="1630410508137" duration="7505000" />
+      <workItem from="1630410508137" duration="7564000" />
     </task>
     <servers />
   </component>
