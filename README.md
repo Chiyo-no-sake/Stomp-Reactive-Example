@@ -20,8 +20,14 @@ public class ChangeEventListener extends ChangeEventListenerConfigurer {
     }
 
     @Override
-    public void configureChangeEventMappings(Map<Class<? extends ChangeEvent>, String> changeEventMappings) {
-        changeEventMappings.put(HeroChangeEvent.class, "/topic/heroes/updates");
+    public void configureChangeEventMappings(ChangeEventMappings changeEventMappings) {
+        changeEventMappings
+                .mapEvent(HeroChangeEvent.class)
+                .toEndpoint("/topic/heroes/updates")
+                .toEndpoint((heroChangeEvent -> String.format("/topic/heroes/%s/updates", heroChangeEvent.getSource().getId())))
+                .and()
+                .mapEvent(PosterChangeEvent.class)
+                .toEndpoint("/topic/poster/updates");
     }
 }
 ```

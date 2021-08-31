@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf8aa9d-8432-44cd-afa0-33de59520e1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/PosterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/PosterChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/model/dto/PosterText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/ChangeEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/ChangeEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroChangeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroChangeEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroDeletedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroDeletedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/HeroUpdatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/HeroChangeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/model/dto/HeroChangeEventMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/StompReactiveExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/StompReactiveExampleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/config/liveWebSocket/ChangeEventListenerConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/HeroesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/controller/HeroesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/stomp-reactive-server/src/main/java/it/redbyte/stompreactiveexample/event/listener/ChangeEventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xS5MKh8MSkV8tqKmPNoxBu5Q68" />
   <component name="ProjectViewState">
@@ -97,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630335599723</updated>
       <workItem from="1630335601059" duration="1058000" />
-      <workItem from="1630404568315" duration="5018000" />
+      <workItem from="1630404568315" duration="5079000" />
+      <workItem from="1630410508137" duration="7505000" />
     </task>
     <servers />
   </component>
@@ -114,5 +116,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

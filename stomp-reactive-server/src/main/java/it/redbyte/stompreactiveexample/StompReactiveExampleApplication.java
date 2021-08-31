@@ -10,6 +10,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 import java.util.Random;
 import java.util.UUID;
@@ -39,6 +40,13 @@ public class StompReactiveExampleApplication {
                 heroesService.deleteAll()
                         .thenMany(Flux.just("Thor", "Ironman", "Spiderman", "Deadpool")
                                 .map(name -> Hero.builder().name(name).rating(new Random().nextInt(10)).id(UUID.randomUUID().toString()).build())
+                                .flatMap(heroesService::addHero)
+                                .doOnNext(hero -> {
+                                    logger.info("Persisted id db: {}", hero);
+                                }).doOnError(error -> {
+                                    logger.error("Error saving to db.\n {}", error.getMessage());
+                                }))
+                        .then(Mono.just(Hero.builder().name("Paso").rating(1000).id("1").build())
                                 .flatMap(heroesService::addHero)
                                 .doOnNext(hero -> {
                                     logger.info("Persisted id db: {}", hero);

@@ -24,6 +24,11 @@ public class HeroesController {
         return heroesService.all();
     }
 
+    @GetMapping("{id}")
+    public Mono<Hero> hero(@PathVariable String id) {
+        return heroesService.getHero(id);
+    }
+
     @PostMapping("new")
     public Mono<Hero> create(@RequestBody HeroRequest request){
         return heroesService.addHero(Hero.fromRequest(request));

@@ -8,22 +8,19 @@ import java.util.Map;
 
 public abstract class ChangeEventListenerConfigurer implements ApplicationListener<ChangeEvent> {
     private final SimpMessagingTemplate messagingTemplate;
-    private final Map<Class<? extends ChangeEvent>, String> mappings;
+    private final ChangeEventMappings changeEventMappings;
 
     public ChangeEventListenerConfigurer(SimpMessagingTemplate messagingTemplate) {
         this.messagingTemplate = messagingTemplate;
-        mappings = new HashMap<>();
-        configureChangeEventMappings(mappings);
+        changeEventMappings = new ChangeEventMappings();
+        configureChangeEventMappings(changeEventMappings);
     }
 
     @Override
     public void onApplicationEvent(ChangeEvent event) {
-        this.mappings.keySet().parallelStream()
-                .filter(key -> key.isAssignableFrom(event.getClass()))
-                .forEach(key -> {
-                    this.messagingTemplate.convertAndSend(this.mappings.get(key), ChangeEventMessage.fromEvent(event));
-                });
+        this.changeEventMappings.getForClass(event.getClass(), event)
+                .subscribe((endpoint) -> this.messagingTemplate.convertAndSend(endpoint, ChangeEventMessage.fromEvent(event)));
     }
 
-    public abstract void configureChangeEventMappings(Map<Class<? extends ChangeEvent>, String> changeEventMappings);
+    public abstract void configureChangeEventMappings(ChangeEventMappings changeEventMappings);
 }
