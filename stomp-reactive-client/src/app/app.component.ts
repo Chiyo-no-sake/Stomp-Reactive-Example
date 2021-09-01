@@ -1,7 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from "rxjs";
-import {Hero} from "./live-web-socket/live-web-socket.service";
-import {LiveRestService} from "./live-web-socket/live-rest.service";
+import {NgxLiveStompService} from "ngx-livestomp";
+
+interface Hero {
+  name: string,
+  rating: number
+}
 
 @Component({
   selector: 'app-root',
@@ -23,7 +27,7 @@ export class AppComponent implements OnInit {
   heroWithID1?: Observable<Hero>;
   poster?: {text: string};
 
-  constructor(private restService: LiveRestService) {
+  constructor(private restService: NgxLiveStompService) {
   }
 
   ngOnInit(): void {

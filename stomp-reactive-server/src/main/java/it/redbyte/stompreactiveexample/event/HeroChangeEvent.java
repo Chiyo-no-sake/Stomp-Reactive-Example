@@ -1,6 +1,6 @@
 package it.redbyte.stompreactiveexample.event;
 
-import it.redbyte.stompreactiveexample.config.liveWebSocket.ChangeEvent;
+import it.redbyte.springlivestomp.ChangeEvent;
 import it.redbyte.stompreactiveexample.model.entities.Hero;
 import lombok.ToString;
 

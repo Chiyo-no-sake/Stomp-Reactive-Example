@@ -17,10 +17,27 @@
 		<java.version>11</java.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>SpringLiveStomp-mvn-repo</id>
+			<url>https://github.com/KatonKalu/SpringLiveStomp/raw/mvn-repo/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>it.redbyte</groupId>
+			<artifactId>spring-livestomp</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>

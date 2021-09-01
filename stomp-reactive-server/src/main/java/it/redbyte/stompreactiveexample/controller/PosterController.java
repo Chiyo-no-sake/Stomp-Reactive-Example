@@ -1,7 +1,5 @@
 package it.redbyte.stompreactiveexample.controller;
 
-import it.redbyte.stompreactiveexample.config.liveWebSocket.ChangeEvent;
-import it.redbyte.stompreactiveexample.config.liveWebSocket.ChangeEventType;
 import it.redbyte.stompreactiveexample.event.PosterChangeEvent;
 import it.redbyte.stompreactiveexample.model.dto.PosterText;
 import org.springframework.beans.factory.annotation.Autowired;

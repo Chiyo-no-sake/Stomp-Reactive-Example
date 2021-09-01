@@ -1,7 +1,7 @@
-import { InjectableRxStompConfig } from '@stomp/ng2-stompjs';
-import {environment} from "../../environments/environment";
+import {RxStompConfig} from "ngx-livestomp";
+import {environment} from "../environments/environment";
 
-export const rxStompConfig: InjectableRxStompConfig = {
+export const rxStompConfig: RxStompConfig = {
   // Which server?
   brokerURL: 'ws://127.0.0.1:8080/ws',
 

@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "@stomp/ng2-stompjs": "^8.0.0",
+    "ngx-livestomp": "^1.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
